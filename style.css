@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #02918c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+}
+
+.logo img {
+    max-height: 40px; 
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links li:last-child {
+    margin-right: 0;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding-right: 25px;
+    transition: color 0.3s ease-in-out; 
+}
+
+.nav-links a:hover {
+    color: #cfc91d; 
+    text-decoration: underline; 
+}
+
+/* Header Styles */
+.header {
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    padding: 0;
+}
+
+.header-bg img {
+    width: 100%;
+    height: 700px;
+}
+
+.gradient-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(37, 37, 37, 0.881), rgba(0, 27, 26, 0.651));
+}
+
+.header-content {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+}
+
+.header-content h3 {
+    font-size: 18px;
+    letter-spacing: 1px; 
+    margin-bottom: 20px;
+}
+
+.header-content h1 {
+    font-weight: 800;
+    font-size: 80px; /* Adjust the font size as needed */
+    letter-spacing: 4px; 
+}
+.header-content a {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  width: 100px;
+  height: 30px;
+  display:inline block;
+  padding: 10px 30px 10px 30px;
+  color: #fff;
+  background: linear-gradient(to right,#02918c 50%, #cfc91d 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all .5s ease-out;
+}
+
+.header-content a:hover {
+    /* background-color: #02918c; */
+    background-position: left bottom;
+}
+
+.fa-regular{
+    margin-right: 10px;
+}
+.container{
+    width: 100%;
+}
